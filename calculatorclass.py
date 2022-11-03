@@ -43,5 +43,16 @@ class Calculator:
         for val in polygon:
             self.area += (prev[0] + val[0]) * (prev[1] - val[1])
             prev = val
+# return absolute value
+        return abs(self.area / 2)  
 
-        return abs(self.area / 2)  # return absolute value
+    def mySqrt(self, x):
+        low=0
+        high=x+1
+        while high-low>1:
+            mid= (high+low)/2
+            if mid*mid <=x:
+                low=mid
+            else:
+                high=mid
+        return low
