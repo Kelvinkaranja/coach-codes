@@ -1,3 +1,7 @@
+'''
+A simple digit reverser with the input being a string.
+'''
+
 def reverse(x):
      
     strs = str(x)
