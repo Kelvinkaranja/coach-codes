@@ -3,6 +3,7 @@ A powerful 32-bit password generator designed for safety,
 optimal password strength and unbeatable security.
 Includes lowercase and uppercase letters, numbers,
 special characters and symbols.
+A password saver can be used to store the generated password.
 '''
 
 #initialize Random
