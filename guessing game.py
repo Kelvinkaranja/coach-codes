@@ -15,6 +15,7 @@ def guess():
     while guess != a:
         #ask for input
         guess = input('Guess a number between 1 and 1000: ')
+        #compare the input to the target answer with valuable output to guide the player.
         if guess.isdigit() == False or int(guess) > 1000:
             print('Please choose a number between 1-1000 dammit')
         elif int(guess) > a:
