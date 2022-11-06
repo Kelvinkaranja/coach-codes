@@ -1,3 +1,9 @@
+'''
+This function checks for multiples of an array returning a list of the numbers whose product is found to be in the list.
+
+'''
+
+
 def revmul(nums):
     
     a=len(nums)
