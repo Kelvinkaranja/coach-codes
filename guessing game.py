@@ -1,3 +1,10 @@
+'''
+This is a simple guessing game where the computer randomly generates a number between 1 and 1000.
+the player is then asked to guess the number until the guess is the same as the random number.
+
+'''
+
+
 from random import randint
 def guess():
     guess = 0
