@@ -13,6 +13,7 @@ def guess():
     
     #create a loop asking for a guess until answer is found.
     while guess != a:
+        #ask for input
         guess = input('Guess a number between 1 and 1000: ')
         if guess.isdigit() == False or int(guess) > 1000:
             print('Please choose a number between 1-1000 dammit')
