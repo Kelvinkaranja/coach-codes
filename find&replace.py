@@ -6,6 +6,7 @@ def findErrorNums(nums):
         n=len(nums)
         nums.sort()
         count=0
+        #iterate to find repeating numbers
         for x in range(n):
             if nums.count(nums[x])>1:
                 a=nums[x]
