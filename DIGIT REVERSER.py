@@ -8,9 +8,10 @@ def reverse(x):
 #deal with leading negatives and reverse.
     if strs[0] == '-':
             new = "-" + strs[-1:-len(strs):-1]
+#deal with poritive numbers
     else:
             new = strs[-1::-1]
-
+#set a range for output
     ma = 2**31-1
     mi = -2**31
     if int(new) < ma and int(new) >mi:
