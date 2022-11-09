@@ -5,7 +5,7 @@ A simple digit reverser with the input being a string.
 def reverse(x):
      #converet the digit to a string
     strs = str(x)
-#remove leading negatives
+#deal with leading negatives and reverse.
     if strs[0] == '-':
             new = "-" + strs[-1:-len(strs):-1]
     else:
