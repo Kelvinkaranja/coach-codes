@@ -1,5 +1,7 @@
 def smallest_missing_int(nums):
+    #SORT THE LIST
     nums.sort()
+    #SET A START POINT
     count=1
     if count in nums:
         nums=list(set(nums[nums.index(count):]))
