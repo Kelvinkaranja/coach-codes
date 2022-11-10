@@ -7,6 +7,7 @@ def smallest_missing_int(nums):
     if count in nums:
         nums=list(set(nums[nums.index(count):]))
         nums.sort()
+    #CHECK FOR MISSING NUMBERS
         for x in range(len(nums)):
             if nums[x]!=count:
                 return count
