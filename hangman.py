@@ -20,11 +20,14 @@ def hangman_board(word):
 
 #GAME LOGIC
 
+#CALL FUNCTIONS
 word = hangman_word_choice(hangman_words)
 board = hangman_board(word)
 word2 = []
+#ITERATE THROUGH LIST TO CREATE A CHECKEING LIST
 for a in word:
     word2.append(a)
+#CHECK IF BOARD IS EQUAL TO THE WORD
 while board != word:
     entry = ''
     while entry not in word:
