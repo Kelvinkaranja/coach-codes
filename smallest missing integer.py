@@ -3,6 +3,7 @@ def smallest_missing_int(nums):
     nums.sort()
     #SET A START POINT
     count=1
+    #SET THE NUMBERS AND SORT THEM AGAIN
     if count in nums:
         nums=list(set(nums[nums.index(count):]))
         nums.sort()
