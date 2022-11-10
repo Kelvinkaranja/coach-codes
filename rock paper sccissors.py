@@ -1,9 +1,11 @@
 def rpc():
+    #DEFINE VARIABLES
     user = ''
     from random import choice
     t = [('r', 'ROCK'), ('p', 'PAPER'), ('s', 'SCISSORS')]
+    #ITERATE THROUGH THE TUPLIST
     for a, b in t:
-        
+        #ASK FOR INPUT
         while user not in a:
             user = input('COURTESY OF KEVTECH' +
                          '\n\nCHOOSE R FOR ROCK, P FOR PAPER OR S FOR SCISCORS: ')
