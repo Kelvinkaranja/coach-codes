@@ -3,11 +3,12 @@ def isIsomorphic(s: str, t: str) -> bool:
     d, n = {}, len(s)
     #Iterate through the string
     for i in range(n):
-        #check for conflicting letters
+        #Check for conflicting letters
         if s[i] in d and d[s[i]] != t[i]:
             return False
-        #add to dictionary d
+        #Add to dictionary d
         d[s[i]] = t[i]
+    #Create 2 sets for each string for comparison
     s1 = set(list(s))
     s2 = set(list(t))
     if len(s1) != len(s2):
