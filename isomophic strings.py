@@ -6,6 +6,7 @@ def isIsomorphic(s: str, t: str) -> bool:
         #check for conflicting letters
         if s[i] in d and d[s[i]] != t[i]:
             return False
+        #add to dictionary d
         d[s[i]] = t[i]
     s1 = set(list(s))
     s2 = set(list(t))
