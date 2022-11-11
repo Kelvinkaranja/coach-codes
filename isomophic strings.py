@@ -1,6 +1,7 @@
 def isIsomorphic(s: str, t: str) -> bool:
     #Assign variables
     d, n = {}, len(s)
+    #Iterate through the string
     for i in range(n):
         if s[i] in d and d[s[i]] != t[i]:
             return False
