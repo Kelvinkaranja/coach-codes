@@ -11,6 +11,7 @@ def isIsomorphic(s: str, t: str) -> bool:
     #Create 2 sets for each string for comparison
     s1 = set(list(s))
     s2 = set(list(t))
+    #Confirm equality
     if len(s1) != len(s2):
             return False
     return True
