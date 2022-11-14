@@ -11,6 +11,7 @@ def isIsomorphic(s: str, t: str) -> bool:
     #find unique figures
     s1 = set(list(s))
     s2 = set(list(t))
+    #Confirm equality
     if len(s1) != len(s2):
             return False
     return True
