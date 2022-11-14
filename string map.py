@@ -8,6 +8,7 @@ def isIsomorphic(s: str, t: str) -> bool:
             return False
         #Add to dictionary
         d[s[i]] = t[i]
+    #Confirm equality
     s1 = set(list(s))
     s2 = set(list(t))
     if len(s1) != len(s2):
