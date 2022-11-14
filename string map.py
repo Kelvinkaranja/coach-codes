@@ -6,6 +6,7 @@ def isIsomorphic(s: str, t: str) -> bool:
         #Isolate edge case
         if s[i] in d and d[s[i]] != t[i]:
             return False
+        #Add to dictionary
         d[s[i]] = t[i]
     s1 = set(list(s))
     s2 = set(list(t))
