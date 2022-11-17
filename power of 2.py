@@ -1,5 +1,6 @@
 #Make necessary importance
 import math
+#Define your fuction
 def isPowerOfTwo(n):
         """
         :type n: int
