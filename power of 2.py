@@ -1,3 +1,4 @@
+#Make necessary importance
 import math
 def isPowerOfTwo(n):
         """
