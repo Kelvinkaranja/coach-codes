@@ -13,4 +13,5 @@ def isPowerOfTwo(n):
         else:
             ans=math.log(n,(2))
             fl=round(ans,10)
-            return (fl)-int(float(ans))==0
+            #Make a comparison to assert equality
+            return (fl)=int(float(ans))
