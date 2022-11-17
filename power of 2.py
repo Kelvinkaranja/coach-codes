@@ -6,8 +6,10 @@ def isPowerOfTwo(n):
         :type n: int
         :rtype: bool
         """
+        #Isolate cases of 0
         if n<=0:
             return False
+
         else:
             ans=math.log(n,(2))
             fl=round(ans,10)
