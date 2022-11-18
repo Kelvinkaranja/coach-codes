@@ -12,6 +12,7 @@ def missingNumber(nums):
             if e==n and len(nums)==n:
                 x=n
                 nums.append(x)
+                #find missing number
             else:
                 if nums[e]!=e:
                     x=e
