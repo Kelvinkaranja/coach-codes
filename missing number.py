@@ -3,7 +3,7 @@ def missingNumber(nums):
         :type nums: List[int]
         :rtype: int
         """
-        
+        #Declare Variables
         n=len(nums)
         nums.sort()
         for e in range(n+1):
