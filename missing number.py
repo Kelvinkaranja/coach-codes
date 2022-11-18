@@ -8,6 +8,7 @@ def missingNumber(nums):
         nums.sort()
         #iterate through list
         for e in range(n+1):
+                #add number at the end of list if still not found
             if e==n and len(nums)==n:
                 x=n
                 nums.append(x)
