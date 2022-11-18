@@ -16,6 +16,7 @@ def missingNumber(nums):
             else:
                 if nums[e]!=e:
                     x=e
+                #add the number to the list and sort it to ensure the algo stays true
                     nums.append(x)
                     nums.sort()
         return x
