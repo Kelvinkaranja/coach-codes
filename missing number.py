@@ -6,6 +6,7 @@ def missingNumber(nums):
         #Declare Variables and sort your list
         n=len(nums)
         nums.sort()
+        #iterate through list
         for e in range(n+1):
             if e==n and len(nums)==n:
                 x=n
