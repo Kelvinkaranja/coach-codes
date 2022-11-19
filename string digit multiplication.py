@@ -11,6 +11,7 @@ def multiply(num1, num2):
         for e in range(n):
             loop=True
             x=0
+                #Create loop to change string to digit without using int operator
             while loop:
                 if num1[e]==str(x):
                     nums1.append(x)
