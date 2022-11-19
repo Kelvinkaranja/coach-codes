@@ -35,6 +35,7 @@ def multiply(num1, num2):
                 else:
                     x +=1
         numb2=0
+        #Multiply elements in the list with its factor
         for e in range(n2):
             numb2 += nums1[e]*(10**(n2-e-1))
         return str(numb1*numb2)
