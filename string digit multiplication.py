@@ -18,6 +18,7 @@ def multiply(num1, num2):
                     loop=False
                 else:
                     x +=1
+         #Iterate through list 2
         numb1=0
         for e in range(n):
             numb1 += nums1[e]*(10**(n-e-1))
