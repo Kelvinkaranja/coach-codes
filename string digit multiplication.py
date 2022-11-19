@@ -7,6 +7,7 @@ def multiply(num1, num2):
         #Declare variables
         n=len(num1)
         nums1=[]
+        #Iterate through list 1
         for e in range(n):
             loop=True
             x=0
