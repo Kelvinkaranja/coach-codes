@@ -11,14 +11,14 @@ def multiply(num1, num2):
         for e in range(n):
             loop=True
             x=0
-                #Create loop to change string to digit without using int operator
+            #Create loop to change string to digit without using int operator
             while loop:
                 if num1[e]==str(x):
                     nums1.append(x)
                     loop=False
                 else:
                     x +=1
-         #Iterate through list 2
+        #Iterate through list 2
         numb1=0
         for e in range(n):
             numb1 += nums1[e]*(10**(n-e-1))
@@ -27,6 +27,7 @@ def multiply(num1, num2):
         for e in range(n2):
             loop=True
             x=0
+            #Create loop to change string to digit without using int operator
             while loop:
                 if num2[e]==str(x):
                     nums1.append(x)
