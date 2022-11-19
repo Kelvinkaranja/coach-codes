@@ -4,6 +4,7 @@ def multiply(num1, num2):
         :type num2: str
         :rtype: str
         """
+        #Declare variables
         n=len(num1)
         nums1=[]
         for e in range(n):
