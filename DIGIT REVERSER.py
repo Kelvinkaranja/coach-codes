@@ -11,7 +11,7 @@ def reverse(x):
 #deal with poritive numbers.
     else:
             new = strs[-1::-1]
-#set a range for output
+#set a range for output.
     ma = 2**31-1
     mi = -2**31
     if int(new) < ma and int(new) >mi:
