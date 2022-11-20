@@ -14,6 +14,7 @@ def reverse(x):
 #set a range for output.
     ma = 2**31-1
     mi = -2**31
+#Define your returns.
     if int(new) < ma and int(new) >mi:
         return int(new)
     else:
