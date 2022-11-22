@@ -7,6 +7,7 @@ def twoSum(nums, target):
         #Declare variables
         n=len(nums)
         k=0
+        #Loop through
         while n>0:
             diff=target-nums[k]
             if diff in nums:
