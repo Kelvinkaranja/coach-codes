@@ -10,7 +10,7 @@ def twoSum(nums, target):
         #Loop through to find difference
         while n>0:
             diff=target-nums[k]
-        #Isolate difference
+        #Isolate difference IF FOUND
             if diff in nums:
                 return [k,nums.index(diff)]
             else:
