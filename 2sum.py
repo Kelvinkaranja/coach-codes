@@ -4,6 +4,7 @@ def twoSum(nums, target):
         :type target: int
         :rtype: List[int]
         """
+        #Declare
         n=len(nums)
         k=0
         while n>0:
