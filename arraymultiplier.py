@@ -5,7 +5,7 @@ This function checks for multiples of an array returning a list of the numbers w
 
 
 def revmul(nums):
-    
+    #Declare variables
     a=len(nums)
     ans=[]
     x=-1
