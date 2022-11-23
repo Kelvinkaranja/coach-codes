@@ -15,7 +15,4 @@ def isPalindrome(x):
     #reverse the string
     rev = fwd[-1::-1]
     #compare the strings
-    if fwd == rev:
-        return True
-    else:
-        return False
+    return fwd==rev
