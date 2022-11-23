@@ -14,5 +14,5 @@ def isPalindrome(x):
     fwd = str(x)
     #reverse the string
     rev = fwd[-1::-1]
-    #compare the strings
+    #compare the strings to prove equivalence
     return fwd==rev
