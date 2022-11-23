@@ -10,6 +10,7 @@ def isPalindrome(x):
         :type x: int
         :rtype: bool
         """
+    #convert to string
     fwd = str(x)
     rev = fwd[-1::-1]
     if fwd == rev:
