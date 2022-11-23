@@ -12,6 +12,7 @@ def isPalindrome(x):
         """
     #convert to string
     fwd = str(x)
+    #reverse the string
     rev = fwd[-1::-1]
     if fwd == rev:
         return True
