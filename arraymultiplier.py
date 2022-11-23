@@ -41,6 +41,7 @@ def revmul(nums):
         #account for non-zero list
         else:
             for each in nums:
+                #convert to integer
                 answer=int(total/each)
                 ans.append(answer)
     return ans
