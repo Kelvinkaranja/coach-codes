@@ -12,7 +12,7 @@ import random
 
 def password_generator(length=4):
 
-    #define initial variables, values and data types
+    #define initial variables, values and data types.
 
     entry_types = ['lower', 'upper', 'numbers', 'symbols']
 
