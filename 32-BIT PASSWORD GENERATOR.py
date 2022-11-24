@@ -41,7 +41,7 @@ def password_generator(length=4):
         random.shuffle(entry_types)
         layer_one = random.choice(entry_types)
 
-        #reference the data in the character types through the dictionary
+        #reference the data in the character types through the dictionary.
         reference = ref_dict[layer_one]
 
         #shuffle the characters in the character type chosen and select a random character.
