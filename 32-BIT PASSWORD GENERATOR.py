@@ -51,7 +51,7 @@ def password_generator(length=4):
         #add the character to the password
         user_password += layer_two
 
-        #continue loop until password is fully generated
+        #continue loop until password is fully generated.
         password_length -= 1
 
     return user_password
