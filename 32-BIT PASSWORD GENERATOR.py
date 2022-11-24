@@ -34,7 +34,7 @@ def password_generator(length=4):
 
     password_length = 32
 
-    #create a loop to generate the password
+    #create a loop to generate the password.
     while password_length > 0:
 
         #shuffle through the character types and the choose a random character type
