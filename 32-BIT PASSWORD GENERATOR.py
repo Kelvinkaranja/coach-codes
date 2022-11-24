@@ -6,7 +6,7 @@ special characters and symbols.
 A password saver can be used to store the generated password.
 '''
 
-#initialize Random
+#initialize Random.
 import random
 
 
