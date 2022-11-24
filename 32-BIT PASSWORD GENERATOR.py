@@ -48,7 +48,7 @@ def password_generator(length=4):
         random.shuffle(reference)
         layer_two = random.choice(reference)
 
-        #add the character to the password
+        #add the character to the password.
         user_password += layer_two
 
         #continue loop until password is fully generated.
