@@ -37,7 +37,7 @@ def password_generator(length=4):
     #create a loop to generate the password.
     while password_length > 0:
 
-        #shuffle through the character types and the choose a random character type
+        #shuffle through the character types and the choose a random character type.
         random.shuffle(entry_types)
         layer_one = random.choice(entry_types)
 
