@@ -17,6 +17,7 @@ Playing with pointers from both sides, eliminate smaller heights and search for 
 ############
 
 def max_area(height):
+    #Declare variables
     l = 0
     r = len(height) - 1
     max_height = 0
