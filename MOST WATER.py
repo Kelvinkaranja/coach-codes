@@ -26,7 +26,7 @@ def max_area(height):
         #assign pointers
         left = height[l]
         right = height[r]
-
+    # Findmin height area
         current_height = min(left, right) * (r - l)
         max_height = max(max_height, current_height)
 
