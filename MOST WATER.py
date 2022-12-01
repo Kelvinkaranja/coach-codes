@@ -23,6 +23,7 @@ def max_area(height):
     max_height = 0
     #Loop through l and r
     while l < r:
+        #assign pointers
         left = height[l]
         right = height[r]
 
