@@ -21,7 +21,7 @@ def max_area(height):
     l = 0
     r = len(height) - 1
     max_height = 0
-
+    #Loop through l and r
     while l < r:
         left = height[l]
         right = height[r]
