@@ -23,10 +23,10 @@ def max_area(height):
     max_height = 0
     #Loop through l and r
     while l < r:
-        #assign pointers
+        #Assign pointers
         left = height[l]
         right = height[r]
-    # Findmin height area
+        # Find min height area
         current_height = min(left, right) * (r - l)
         max_height = max(max_height, current_height)
 
