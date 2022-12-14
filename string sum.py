@@ -26,4 +26,5 @@ def addStrings(self, num1, num2):
     for i in range(l2):
         d2 += nums2[i]*(10**(l2-1))
         l2 -= 1
+    #Sum up the numbers.
     return str(d1+d2)
