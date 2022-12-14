@@ -4,6 +4,7 @@ def addStrings(self, num1, num2):
         :type num2: str
         :rtype: str
     """
+    #Declare variables.
     nums1 = []
     nums2 = []
     d1 = 0
