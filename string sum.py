@@ -19,6 +19,7 @@ def addStrings(self, num1, num2):
                     nums2.append(i)
     l1 = len(nums1)
     l2 = len(nums2)
+    #Iterate to sum up the numbers
     for i in range(l1):
         d1 += nums1[i]*(10**(l1-1))
         l1 -= 1
