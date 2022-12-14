@@ -9,6 +9,7 @@ def addStrings(self, num1, num2):
     nums2 = []
     d1 = 0
     d2 = 0
+    #Iterate through to map the string to number
     for i in range(10):
         for e in range(len(num1)):
             if num1[e] == str(i):
