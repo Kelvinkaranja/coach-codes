@@ -11,6 +11,7 @@ def greatestLetter(self, s):
         """
         #Create an empty list
         output=['']
+        #Iterate through the string
         for i in range(len(s)):
             if s[i].isupper() and s[i].lower() in s:
                 output.append(s[i])
