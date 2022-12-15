@@ -19,5 +19,5 @@ def greatestLetter(self, s):
                 output.append(s[i])
         #Sort list to find the largest letter 
         output.sort()
-        #
+        #Return the letter
         return output[-1]
