@@ -9,6 +9,7 @@ def greatestLetter(self, s):
         :type s: str
         :rtype: str
         """
+        #Create an empty list
         output=['']
         for i in range(len(s)):
             if s[i].isupper() and s[i].lower() in s:
