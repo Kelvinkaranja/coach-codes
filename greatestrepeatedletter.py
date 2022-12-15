@@ -15,6 +15,7 @@ def greatestLetter(self, s):
         for i in range(len(s)):
             #Check for upper case letters that also appear as lowercase
             if s[i].isupper() and s[i].lower() in s:
+                #Add the found letters to output list
                 output.append(s[i])
         output.sort()
         return output[-1]
