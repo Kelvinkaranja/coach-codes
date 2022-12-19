@@ -7,6 +7,9 @@ def isNumber(s):
             return False
         try:
             float(s)
+        except:
+            return False
+        
         
         
      
