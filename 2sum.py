@@ -14,6 +14,7 @@ def twoSum(nums, target):
         #Loop through to find the target difference
         while n>0:
             diff=target-nums[k]
+            # Sift through the list to find the number 
             if diff in nums and nums.index(diff) != k:
                 return [k,nums.index(diff)]
             else:
