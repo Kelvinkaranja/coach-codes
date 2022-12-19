@@ -1,4 +1,4 @@
-def isNumber(self, s):
+def isNumber(s):
         """
         :type s: str
         :rtype: bool
