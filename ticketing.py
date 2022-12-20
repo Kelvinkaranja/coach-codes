@@ -13,6 +13,6 @@ def timeRequiredToBuy(self, tickets, k):
                 if tickets[i]>0:
                     tickets[i]=tickets[i]-1
                     time +=1
-        
+        return time
         
         
