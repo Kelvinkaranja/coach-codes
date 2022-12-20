@@ -1,5 +1,5 @@
 
-def timeRequiredToBuy(self, tickets, k):
+def timeRequiredToBuy(tickets, k):
         """
         :type tickets: List[int]
         :type k: int
