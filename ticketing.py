@@ -9,5 +9,7 @@ def timeRequiredToBuy(self, tickets, k):
         while tickets[k]>0:
             for i in range(len(tickets)):
                 if tickets[k]==0:
+                    return time
+                
         
         
